@@ -1,6 +1,6 @@
 import unittest
 
 
-class DummyTest(unittest.TestCase):
+class TestDummy(unittest.TestCase):
     def test(self):
         self.assertTrue(True)
