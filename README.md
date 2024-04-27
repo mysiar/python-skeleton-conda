@@ -1,11 +1,15 @@
-# Basic Python skeleton project
+# Basic Python skeleton project with conda
+
+Set Python version in `Makefile`
 
 ## Local development with `venv`
 * run `make venv` to create `venv`
-* run `. ./venv/bin/activate` to activate `venv`
+* run `make venv-redo` to recreate `venv`
+* run `conda activate ./venv` to activate `venv`
 * run `make pip` to install dependencies
 * run `make lint` to lint code
 * run `make test` to run tests
+* test coverage in `./var/coverage_html_report` folder
 
 ## Development in Docker
 * run `make up`
